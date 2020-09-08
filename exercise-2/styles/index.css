@@ -16,6 +16,7 @@ h1 {
     color: #fff;
     font-size: 2em;
     width: 100%;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -23,6 +24,7 @@ h2 {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 100;
     font-size: 22px;
+    text-transform: capitalize;
     line-height: 24px;
     padding-bottom: 30px;
     text-align: left;
@@ -35,9 +37,14 @@ p {
     width: 100%;
 }
 
+p:first-line{
+    font-weight: bold;
+}
+
 .image {
     background-size: cover;
     background-position: center;
+    background-image: url(../img/background-img.jpg);
     height: 300px;
 }
 
@@ -45,11 +52,13 @@ p {
     display: block;
     font-family: 'Playfair Display', serif;
     font-size: 14px;
+    font-style: italic;
     line-height: 14px;
     margin-left: 20px;
     padding: 10px;
     position: relative;
     top: 80%;
     width: 60%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
 }
-
