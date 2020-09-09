@@ -23,7 +23,7 @@ body {
   }
   
   .global {
-    display: none;
+    visibility: hidden;
   }
   
   #banner {
@@ -47,13 +47,12 @@ body {
   }
   
   #main {
-    position: relative;
     height: 800px;
     width: 500px;
     padding: 40px;
     text-align: center;
-    overflow: auto;
     margin: 0 auto;
+    overflow: auto;
   }
   
   #main::-webkit-scrollbar {
@@ -68,8 +67,8 @@ body {
   }
   
   h3 {
-    margin: 30px, 20px;
-    padding: 20px, 30px;
+    margin: 30px 20px;
+    padding: 20px 30px;
     color: red;
     font-size: 14px;
     line-height: 48px;
@@ -87,10 +86,8 @@ body {
   }
   
   .pull-quote {
-    position: relative;
     width: 400px;
-    margin: 0, auto;
-    text-align: center;
+    margin: 0 auto;
   }
   
   .byline {
